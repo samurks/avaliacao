@@ -1,0 +1,23 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "avaliacao-pwa",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samurks/avaliacao-pwa.git"
+  },
+  "author": "samurks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samurks/avaliacao-pwa/issues"
+  },
+  "homepage": "https://github.com/samurks/avaliacao-pwa#readme",
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
