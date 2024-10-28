@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.tabela-responsiva {
+  width: 100%;
+  max-height: 80vh; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  font-size: 1rem;
+  overflow: hidden;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+.azul {
+  background-color: #3a78d8;
+  color: white;
+}
+
+.amarelo {
+  background-color: #ffff99;
+}
+
+.roxo {
+  background-color: #4e1e9d;
+  color: white;
+}
+
+td[colspan] {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.horario {
+  width: 8%;
+}
+
+.dia {
+  width: 18%;
+}
+
+.disciplina {
+  font-weight: bold;
+}
+
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  html {
+      font-size: 14px;
+  }
+
+  th, td {
+      font-size: 0.9rem;
+      padding: 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+      font-size: 12px;
+  }
+
+  th, td {
+      font-size: 0.75rem;
+      padding: 3px;
+  }
+
+  .tabela-responsiva th, .tabela-responsiva td {
+      white-space: normal;
+  }
+}

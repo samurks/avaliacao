@@ -1,6 +1,6 @@
 let cacheName = "avaliacao-pwa";
 let filesToCache = ["/", "/index.html", 
-                "/css/style.css", "/js/main.js"];
+                "/pages/css/style.css", "/js/main.js", "/pages/horarios.html", "/pages/horarios", "manifest.json", "/pages/pe.html", "/pages/pe"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
