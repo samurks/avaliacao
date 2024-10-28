@@ -6,12 +6,21 @@
     <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="white" />
     <title>Página Inicial</title>
+    <link rel="stylesheet" href="pages/css/main.css">
 </head>
 <body>
-    <h1>Página Inicial</h1>
-    <p>Bem vindo à pwa de horários e pe!</p>
+    <div class="container">
+        <header>
+            <h1>Página Inicial</h1>
+            <p>Bem-vindo à PWA de horários e PE!</p>
+        </header>
+        
+        <nav class="menu">
+            <a href="/pages/horarios" class="btn">Ver Horários das Aulas</a>
+            <a href="/pages/pe" class="btn">Ver Horários dos PE's</a>
+        </nav>
+    </div>
 
-    <a href="/pages/horarios">Ver Horários das Aulas</a><br>
-    <a href="/pages/pe">Ver Horários dos PE's</a>
     <script src="js/main.js"></script>
 </body>
+</html>
